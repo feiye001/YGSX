@@ -1,0 +1,30 @@
+
+	<div class="mineONE" ui-view ng-controller="mineController">
+		<!-- mine上部分 -->
+		<div class="mineTop">
+			<!-- 注册/登陆 -->
+			<div class="mineAvatar">
+				<a ui-sref="mineLogoIn">
+					<img src="http://img02.yiguo.com/e/web/150705/00781/102924/login-pic.jpg" alt="注册登陆图片">
+					<div class="mineMask"></div>
+				</a>
+			</div>
+			<!-- 设置 -->
+			<a ui-sref="shezhi" class="mineSet"></a>
+			<!-- 悠币/余额 -->
+			<div class="mineShow">
+				<span class="mineYoubi">悠币:<strong>0</strong></span>
+				<span class="mineBalance">余额:$0.00</span>
+			</div>
+		</div>
+		<!-- mine下部分 -->
+		<div class="mineBot">
+			<!-- 六个小菜单 -->
+			<a class="mineUser" ui-sref="indent"><span></span>我的订单</a>
+			<a class="mineUser" ui-sref="favorable"><span></span>优惠券</a>
+			<a class="mineUser" ui-sref="address"><span></span>收货地址</a>
+			<a class="mineUser" ui-sref="service"><span></span>客服电话</a>
+			<a class="mineUser" ui-sref="picking"><span></span>提货券</a>
+			<a class="mineUser" ui-sref="home"><span></span>团来团趣</a>
+		</div>
+	</div>

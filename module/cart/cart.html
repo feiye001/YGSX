@@ -1,0 +1,54 @@
+<div ng-controller="cartController" id="cart">
+	<div class="cart-items" ng-show="cartFlag1">
+		<div class="cart-list">
+			<ul>
+				<li ng-repeat="item in ITEMS">
+					<div class="cart-compic">
+						<a href="##">
+							<img ng-src="{{item.SmallPic || item.pictureUrl}}">
+						</a>
+					</div>
+					<div class="cart-comdet">
+						<div class="cart-proname">{{item.CommodityName || item.commodityName}}</div>
+						<div class="cart-propri">￥{{item.CommodityPrice || item.commodityPrice| number:2}}<span>{{item.Spec}}</span></div>
+						<div class="cart-qua">
+							<span id="cart-cut" class="cart-cut" ng-click="cartCut(item)">-</span>
+							<input type="text" id="cart-procount" value="{{item.num}}">
+							<span id="cart-add" class="cart-add" ng-click="cartAdd(item)">+</span>
+						</div>
+					</div>
+					<div class="cart-comdel">
+						<a ng-click="cartDel(item, true)">删除</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="cart-clear">
+			<a ng-click="cartDel(item, false)">清空购物车</a>
+		</div>
+		<div class="cart-price">
+			<div class="cart-priin">
+				<span class="cart-saleoff">优惠:<span id="cart-saleoff">￥0.00</span></span>
+				<span class="cart-salesum">总计:<span id="cart-salesum">￥{{bonus | number:2}}</span></span>
+			</div>
+			<a class="cart-buy" id="cart-buy">去结算(<span>{{sumNum}}</span>)</a>
+		</div>
+	</div>
+	<div class="cart-init" ng-show="cartFlag2">
+		<div class="cart-logo">
+			<span>购物车是空的</span>
+		</div>
+		<div class="cart-buy">
+			<a ui-sref="type">去逛逛</a>
+		</div>
+	</div>
+	<div class="cart-del" ng-show="cartFlag3">
+		<div class="cart-delIn">
+			<div class="cart-clearTips">您确定要删除该商品</div>
+			<div class="cart-confirm">
+				<span class="cart-cancel" ng-click="cancelDel()">取消</span>
+				<span class="cart-sure" ng-click="sureDel()">确认</span>
+			</div>
+		</div>
+	</div>
+</div>

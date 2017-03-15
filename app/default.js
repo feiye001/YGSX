@@ -1,0 +1,10 @@
+/*! th-1.0.0.js 2017-03-05*/
+var app=angular.module("myApp",["ui.router"]);/* 
+* @Author: anchen
+* @Date:   2017-02-25 21:31:03
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-04 10:25:10
+*/
+window.onload=function(){new Swiper(".swiper-container",{autoplay:1e3,//可选选项，自动滑动
+pagination:".swiper-pagination"})},app.config(function(a,b){b.otherwise("home"),a.state("home",{url:"/home",templateUrl:"module/home/home.html",controller:"HomeController"}).state("detail",{url:"/detail",templateUrl:"module/home/detail.html",controller:"detailController"}).state("fresh",{url:"/fresh",templateUrl:"module/home/fresh.html",controller:"freshController"}).state("city",{url:"/city",templateUrl:"module/city/city.html",controller:"cityController"}).state("type",{url:"/type",templateUrl:"module/type/type.html",controller:"HomeController"}).state("cart",{url:"/cart",templateUrl:"module/cart/cart.html",controller:"cartController"}).state("mine",{url:"/mine",templateUrl:"module/mine/mine.html",controller:"HomeController"}).state("mineLogoIn",{url:"/mineLogoIn",templateUrl:"module/mine/build/mineLogoIn.html",controller:"mineController"}).state("indent",{url:"/indent",templateUrl:"module/mine/build/indent.html"}).state("favorable",{url:"/favorable",templateUrl:"module/mine/build/favorable.html",controller:"mineController"}).state("address",{url:"/address",templateUrl:"module/mine/build/address.html",controller:"mineController"}).state("service",{url:"/service",templateUrl:"module/mine/build/service.html",controller:"mineController"}).state("shezhi",{url:"/shezhi",templateUrl:"module/mine/build/shezhi.html",controller:"mineController"}).state("picking",{url:"/picking",templateUrl:"module/mine/build/picking.html",controller:"mineController"}).state("eat",{url:"/eat",templateUrl:"module/eat/eat.html",controller:"EatController"}).state("eat.eat_tiaozhuan",{url:"/eat_tiaozhuan",templateUrl:"module/eat/eat_tiaozhuan.html"}).state("type_sec",{url:"/type_sec",templateUrl:"module/type/type_sec/type_sec.html",controller:"typeController"})});
+/*最后修改人：th*/

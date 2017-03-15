@@ -1,0 +1,77 @@
+<div id="eat">
+	<div class="wrap">
+	<div ui-view>
+		<div class="index">
+			<!-- 轮播图组件 -->
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide" ng-repeat="banner in Banners">
+			        	<a ui-sref="eat.eat_tiaozhuan">
+			        		<img ng-src="{{banner.PictureUrl}}">
+			        	</a>
+			        </div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+	    		<div class="swiper-pagination">
+	    			<span class="swiper-pagination-bullet"></span>
+	    			<span class="swiper-pagination-bullet"></span>
+	    			<span class="swiper-pagination-bullet"></span>
+	    			<span class="swiper-pagination-bullet"></span>
+	    		</div>
+			</div>
+			<!-- 广告位腰线和小分类 -->
+			<div class="title  title-icon">
+				<div class="title-in title-pad">
+
+					<ul class="icon-list clear" >
+						<li ng-repeat="banner in Banners1" ng-click="type(banner.BannerName)">
+							<a href="">
+								<img class="lazy icon1" ng-src="{{banner.PictureUrl}}">
+								{{banner.BannerName}}
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			<!-- <div>
+				dfsfdsdfdsfsdf
+			</div> -->
+
+
+			<div  infinite-scroll='demo.nextPage()' infinite-scroll-disabled='demo.busy' infinite-scroll-distance='0'>
+
+				<div class="title open-article" ng-repeat="n in demo.items | filter:_filter">
+					<a ui-sref="eat.eat_tiaozhuan" class="border-color">
+						<div class="title-in">
+							<div class="img-box">
+								<span class="txt food">{{n.OtherCategoryName}}</span>
+								<span class="num">
+									<i class="icon icon5"></i>
+									{{n.TotalReadNum}}
+								</span>
+								<img class="lazy" ng-src="{{n.PictureUrl}}">
+							</div>
+							<p class="tit1">{{n.EfruitArticleTitle}}</p>
+							<p class="tit2">{{n.EfruitArticleSummary}}</p>
+							<div class="time">
+								<img class="lazy  img-circle img-responsive" ng-src="{{n.AuthorPicture}}">
+								<span class="name">{{n.Author}}</span>
+								<span class="time-new">{{n.PublishedTimed}}</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div ng-show='demo.busy' class="load">正在加载中</div>
+			</div>
+
+
+
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+

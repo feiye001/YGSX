@@ -1,0 +1,115 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{
+    font:12px Arial, Helvetica, 华文细黑, sans-serif;;background:#fff;
+}
+a{
+    color:#172c45;
+    text-decoration:none
+} 
+a:hover{
+    color:#cd0200;
+    text-decoration:underline
+} 
+em{font-style:normal}
+li{list-style:none}
+img{
+    border:0;
+    vertical-align:middle
+} 
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.ind{text-indent:2em}
+.ind10{text-indent:10px;}
+.noborder{border:0;}
+
+
+
+.Picbig{
+	padding: 0;
+}
+.Picbig form{
+	margin-bottom: 1em;
+	display: block;
+    margin-top: 0em;
+}
+.Picinput{
+	border: .03rem solid #d9dfd5;
+    border-width: .03rem 0;
+    margin-top: 1rem;
+    padding: 0 0 0 .83rem;
+    background: #fff;
+}
+.Picinput-username{
+	position: relative;
+    padding: .5rem 0;
+    border-bottom: .03rem solid #e7e7e7;
+}
+label{
+	display: inline-block;
+    margin-bottom: .17rem;
+    font-weight: bold;
+}
+.Picum-icon{
+	background: url(http://img02.yiguo.com/e/web/150924/00982/140710/icon_username.png) no-repeat;
+    background-size: 100% 100%;
+    width: .7rem;
+}
+.Picinput-username input{
+	padding: 0 0 0 1rem;
+	display: block;
+    width: 100%;
+    height: .79rem;
+    font-size: .53rem;
+    border: none;
+    background: none;
+}
+.Picinput-password{
+	position: relative;
+    padding: .5rem 1rem;
+    border-bottom: .03rem solid #e7e7e7;
+}
+.Picpw-icon{
+	background: url(http://img02.yiguo.com/e/web/150924/00982/140710/icon_password.png) no-repeat;
+    background-size: 100% 100%;
+}
+.Picinput-password input{
+	display: block;
+    width: 100%;
+    height: .79rem;
+    font-size: .53rem;
+    border: none;
+    background: none;
+}
+.Picbtn{
+	margin: 1rem .3rem 0;
+    position: relative;
+}
+.Picbtn a{
+	color: #008842;
+    position: absolute;
+    left: 0;
+    top: .26rem;
+    font-size: .5rem;
+    cursor: pointer;
+}
+.Piction{
+	background-image: url(http://img02.yiguo.com/e/web/150924/00982/140710/icon_tips.png);
+    width: .4rem;
+    height: .4rem;
+
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100% 100%;
+}
+.Piction-btn{
+	display: block;
+    width: 45%;
+    height: 1.32rem;
+    color: #008842;
+    background: none;
+    border-radius: .13rem;
+    font-size: .53rem;
+    border: solid .03rem #008842;
+    margin: 0 auto;
+
+}

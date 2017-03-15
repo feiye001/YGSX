@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta name = "viewport" content = "width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/common.css">
+        <link rel="stylesheet" type="text/css" href="css/swiper-3.4.1.min.css">
+        
+        <script type="text/javascript" src="lib/rem.js"></script>
+    </head>
+    <body>
+        <div ui-view></div>
+        <footer id="footer" ng-hide="hide">
+            <ul >
+                <a ui-sref-active="active1" ui-sref="home"><li>首页</li></a>
+                <a ui-sref="type" ui-sref-active="active2"><li>分类</li></a>
+                <a ui-sref="eat" ui-sref-active="active3" ng-click="hide = !hide"><li>吃饭吧</li></a>
+                <a ui-sref="cart" ui-sref-active="active4" class="carcar"><li>购物车</li></a>
+                <a ui-sref="mine" ui-sref-active="active5"><li>我的易果</li></a>
+            </ul>
+    	</footer>
+	</body>
+    <script type="text/javascript" src="lib/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="lib/swiper-3.4.1.jquery.min.js"></script>
+    <script type="text/javascript" src="lib/swiper-3.4.1.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.fly.min.js"></script>
+    <script type="text/javascript" src="lib/angular-ui-router.js"></script>
+    <script type="text/javascript" src="lib/ng-infinite-scroll.min.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/controllers/controller.js"></script>
+    <script type="text/javascript" src="app/router.js"></script>
+    <script type="text/javascript" src="app/service/service.js"></script>
+
+</html>

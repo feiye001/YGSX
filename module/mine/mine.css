@@ -1,0 +1,122 @@
+/*body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{
+    font:12px Arial, Helvetica, 华文细黑, sans-serif;;background:#fff;
+}
+a{
+    color:#172c45;
+    text-decoration:none
+} 
+a:hover{
+    color:#cd0200;
+    text-decoration:underline
+} 
+em{font-style:normal}
+li{list-style:none}
+img{
+    border:0;
+    vertical-align:middle
+} 
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.ind{text-indent:2em}
+.ind10{text-indent:10px;}
+.noborder{border:0;}*/
+
+
+
+.mineONE{
+	padding: 0 0 2.32rem 0;
+}
+.mineTop{
+	text-align: center;
+}
+.mineAvatar a img{
+	width: 2.98rem;
+}
+.mineAvatar{
+	position: relative;
+    width: 4.3rem;
+    height: 4.3rem;
+    padding: 0.66rem;
+    margin: 0 auto;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center;
+}
+.mineMask{
+	background: url(http://img02.yiguo.com/e/web/150703/00781/140145/myyg-bg.png) no-repeat 0 0;
+    background-size: 4.3rem;
+    width: 4.3rem;
+    height: 4.3rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    margin-left: .7rem;
+}
+.mineSet{
+	position: absolute;
+    top: 0.66rem;
+    right: 0.66rem;
+    display: block;
+    width: 0.7rem;
+    height: 0.76rem;
+    background: url("http://img05.yiguoimg.com/e/web/170111/00881/110627/icon-setup.png") no-repeat left top;
+    background-size: 100% 100%;
+}
+.mineShow{
+	display: table;
+    margin: 0.5rem auto 0;
+    width: 8.28rem;
+}
+.mineYoubi{
+	text-align: center;
+	display: table-cell;
+    width: 50%;
+    color: #008842;
+    font-size: .5rem;
+    font-weight: bold;
+}
+.mineYoubi strong{
+	color: #299d1a;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+.mineBalance{
+	text-align: center;
+	display: table-cell;
+    width: 50%;
+    color: #008842;
+    font-size: .5rem;
+    font-weight: bold;
+}
+.mineBalance strong{
+	color: #299d1a;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+.mineBot{
+	width: 10rem;
+    margin: 1.32rem auto 0 auto;
+}
+.mineUser{
+	display: block;
+    float: left;
+    width: 2.15rem;
+    height: 2.55rem;
+    margin: 0 .5rem .3rem;
+    color: #666;
+    text-align: center;
+    font-size: .4rem;
+    position: relative;
+}
+.mineUser span{
+	display: block;
+    width: 1.59rem;
+    height: 1.59rem;
+    margin: .23rem .23rem .17rem;
+    background: url(http://img06.yiguoimg.com/e/web/161208/00342/133833/icon-usercenter.png) no-repeat;
+    background-size: 11.12rem 1.6rem;
+    text-indent: -999px;
+    overflow: hidden;
+}

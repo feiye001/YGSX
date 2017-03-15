@@ -1,0 +1,50 @@
+<!-- <!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+        <link rel="stylesheet" type="text/css" href="fresh.css">
+        <link rel="stylesheet" type="text/css" href="../../css/swiper-3.4.1.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="../../lib/rem.js"></script>
+    </head>
+    <body> -->
+        <div id="fresh" ng-controller="freshController">
+            <div class="banner">
+                <img ng-src="http://img11.yiguoimg.com/e/items/2017/170120/9288700562186804_800x580.jpg"/ class="banner-icon">
+                <a title="" class="loc"><img ng-src="http://img06.yiguoimg.com/e/web/160623/00781/143124/position.png"/><span>北京</span></a>
+            </div>
+            <div class="nav">
+                <div class="navbox">
+                    <ul class="navlist">
+                        <li ng-repeat="n in freshdata.RspData.data.YgActivityFloors" class="listname" ng-click="abc(n.fname)">
+                            <a title="" class="navlink">{{n.FloorName}}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fe-list" ng-repeat="n in freshdata.RspData.data.YgActivityFloors" id="{{n.fname}}">
+                <div class="fe-lttitle">
+                    <a ng-sref="" title="" class="title-link">
+                        <img ng-src="{{n.ActivityFloorItems[0].FloorItemImgUrl}}"/>
+                    </a>
+                </div>
+                <ul class="fe-ltdetail">
+                   <li class="fe-li" ng-repeat="x in n.ActivityFloorItems[1].Commoditys"   ng-click="getinfo(x)" ui-sref="detail">
+                       <a ng-sref="" title="" class="fe-link">
+                           <img ng-src="{{x.SmallPic}}"/>
+                       </a>
+                       <p class="fe-gdname">
+                           <a ng-sref="" title="">{{x.CommodityName}}</a>
+                       </p>
+                       <p class="price">
+                           <span class="value">¥<span class="intvalue">{{calnum(x.CommodityPrice, true)}}</span>.<span class="floatvalue">{{calnum(x.CommodityPrice)}}</span></span>
+                       </p>
+                       <a ng-sref="" title="" class="addto-cart">
+                           <img ng-src="http://img06.yiguoimg.com/e/web/160623/01634/btnbuy.jpg"/>
+                       </a>
+                   </li> 
+                </ul>
+            </div>
+        </div>

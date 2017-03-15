@@ -1,0 +1,31 @@
+<div id="type" ui-view>
+	<div ng-controller="typeController">
+		<div class="type-box">
+				<form class="type-form">
+				<span></span>
+				<input type="text" placeholder="请输入商品名称">
+				</form>
+				<a href="#" class="type-search">取消</a>
+		</div>
+		<div>
+			<div class="type-list">
+				<div class="type-list-all"  ng-repeat="item in items.RspData.data">
+					<dl class="type-list-pro" ng-click="showDetial()" num="D{{$index}}">
+						<dt></dt>
+						<dd>
+							<span>{{ item.CategoryName }}</span>
+							<br/>
+							<span>{{ item.Description }}</span>
+						</dd>
+						<strong></strong>
+					</dl>
+					<ul class="type-list-detial" ng-show="flag" num1="D{{$index}}">
+						<li>
+							<a ui-sref="type_sec" ng-repeat="i in item.Childs">{{ i.CategoryName }}</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

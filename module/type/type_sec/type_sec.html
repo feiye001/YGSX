@@ -1,0 +1,35 @@
+<div ng-controller="typeSecController" class="type-sec-all">
+	<div class="type-sec">
+		<ul class="type-sec-title">
+			<li class="type-activeA" id="type-sec-def" typeVal=""  ng-click="change($event)">
+				默认
+			</li>
+			<li class="" typeVal="CommodityPrice"  ng-click="change($event)">
+				价格
+			</li>
+			<li class="" typeVal="CommodityCode"  ng-click="change($event)">
+				热销
+			</li>
+		</ul>
+	</div>
+	<div class="type-sec-pro">
+		<ul>
+			<li ng-repeat="items_sec in items.RspData.data | orderBy:orderKey:orderType">
+				<a href="##">
+					<div class="type-sec-pic">
+						<img src="{{items_sec.SmallPic}}">
+					</div>
+					<div class="type-sec-det">
+						<p class="type-sec-proName">{{items_sec.CommodityName}}</p>
+						<div class="type-sec-dis"></div>
+						<div class="type-sec-price">
+							<span class="type-sec-cost">￥{{items_sec.CommodityPrice}}</span>
+							<span class="type-sec-qua">({{items_sec.Spec}})</span>
+						</div>
+					</div>
+				</a>
+				<div class="type-sec-buy" ng-click="typeBuy(items_sec, $event)"></div>
+			</li>
+		</ul>
+	</div>
+</div>

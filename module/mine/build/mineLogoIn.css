@@ -1,0 +1,209 @@
+/*body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}*/
+*{margin: 0;padding: 0}
+/*body{
+    font:12px Arial, Helvetica, 华文细黑, sans-serif;background-color: #f8f8f8;
+    width: 100%;
+}*/
+a{
+    color:#172c45;
+    text-decoration:none
+} 
+a:hover{
+    color:#cd0200;
+    text-decoration:underline
+} 
+em{font-style:normal}
+li{list-style:none}
+img{
+    border:0;
+    vertical-align:middle
+} 
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.ind{text-indent:2em}
+.ind10{text-indent:10px;}
+.noborder{border:0;}
+
+
+body{
+	font-family: Verdana, Arial, Helvetica, microsoft yahei, '\534E\6587\7EC6\9ED1' !important;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+    background-color: #f8f8f8;
+    font-size: .46rem;
+    line-height: 1.428571429;
+    color: #333;
+}
+.LIbig{
+	/*padding: 0 0 2.32rem 0;
+	padding-top: .9rem;
+	width: 100%;*/
+	display: block;
+	padding: 0 0 2.32rem 0;
+	box-sizing: border-box;
+}
+.LItop form{
+	display: block;
+    margin-top: 0em;
+}
+.LIimport{
+	border: .04rem solid #d9dfd5;
+    border-width: .04rem 0;
+    margin-top: 1rem;
+    padding: 0 0 0 .66rem;
+    background: #fff;
+
+    position: relative;
+    padding: .5rem 0;
+}
+.LIimport input{
+	padding: 0 0 0 1rem;
+}
+.LIusername{
+	position: relative;
+    padding: .5rem 0;
+    border-bottom: .04rem solid #e7e7e7;
+}
+.LIusername-logo{
+	background: url(../image/icon_username.png) no-repeat;
+    background-size: 100% 100%;
+
+    display: block;
+    position: absolute;
+    top: .66rem;
+    left: 0;
+    width: .6rem;
+    height: .66rem;
+}
+.userName{
+	display: block;
+    width: 100%;
+    height: 1rem;
+    font-size: .53rem;
+    border: none;
+    background: none;
+}
+.LIpassword{
+	position: relative;
+    padding: .5rem 0;
+    border-bottom: .04rem solid #e7e7e7;
+}
+.password-logo{
+	background: url(http://img07.yiguoimg.com/e/web/160104/02423/150313/icon_password.png) no-repeat;
+    background-size: 100% 100%;
+
+    display: block;
+    position: absolute;
+    top: .66rem;
+    left: 0;
+    width: .6rem;
+    height: .66rem;
+}
+.passWord{
+	padding: 0 0 0 1rem;
+	display: block;
+    width: 100%;
+    height: 1rem;
+    font-size: .53rem;
+    border: none;
+    background: none;
+}
+.LIyanzhengma{
+	border: none;
+	position: relative;
+    padding: .5rem 0;
+}
+.yanzhengma{
+	width: 70%;
+    border: none;
+    float: left;
+    padding: 0 0 0 1rem;
+	display: block;
+    width: 100%;
+    height: 1rem;
+    font-size: .53rem;
+    border: none;
+    background: none;
+}
+.LIyanzhengma img{
+	height: 1rem;
+    margin-left: .17rem;
+    margin-left: -5rem;
+}
+.LIforget{
+	margin: .5rem 1rem 0 .66rem;
+}
+.LIforget-span{
+	float: left;
+    width: 45%;
+    text-align: left;
+}
+.LIforget-span-a{
+	color: #008842;
+    font-size: .5rem;
+    font-weight: bold;
+}
+.LIregister{
+	margin: 1.99rem 0 0;
+    text-align: center;
+}
+.LIbtnleft{
+	display: inline-block;
+    width: 45%;
+    height: 1.33rem;
+    border: none;
+    border-radius: .13rem;
+    font-size: .53rem;
+    color: #fff;
+    background: #008842;
+    margin-right: .9rem;
+}
+.LIbtnright{
+	border: .03rem solid #008842;
+    color: #008842;
+    background: #fff;
+    width: 45%;
+    height: 1.33rem;
+    border-radius: .13rem;
+    font-size: .53rem;
+}
+.LIcollaborate{
+	margin: 1.5rem 0 0 0;
+}
+.LIcollaborate dl{
+	margin-top: 0;
+    margin-bottom: .66rem;
+}
+.LIcollaborate dt{
+	font-size: .5rem;
+    padding-bottom: .66rem;
+    text-align: center;
+    color: #a0a0a0;
+}
+.LIcollaborate dd{
+	padding: 0 3.31rem;
+}
+.LIcollaborate a{
+	background: url(http://img02.yiguo.com/e/web/150623/00781/173832/login-qq.png) no-repeat center;
+    background-size: auto 100%;
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    height: 1.82rem;
+    text-indent: -9999px;
+}
+.LIbot{
+	width: 100%;
+    text-align: center;
+    top: 22rem;
+    left: 0;
+    padding: .3rem;
+    position: absolute;
+}
+.LIbot img{
+	border: 0;
+    vertical-align: middle;
+    width: 3.44rem;
+    height: 1.13rem;
+}

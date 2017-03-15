@@ -1,0 +1,167 @@
+{
+    "Method": "",
+    "RspCode": 1,
+    "RspMsg": "",
+    "RspData": {
+        "data": {
+            "AdSwiperImage35": {
+                "GroupId": "AdSwiperImage35",
+                "GroupTitle": "Banners",
+                "CountdownSeconds": null,
+                "Banners": [
+                    {
+                        "GroupName": "35",
+                        "Remark1": "http://suo.im/4wzvXq",
+                        "CommodityId": "",
+                        "BannerId": "0f65870e-99d2-4006-b29b-21f3889d2a84",
+                        "BannerName": "玛德琳",
+                        "LinkChannel": 3,
+                        "LinkType": 0,
+                        "LinkCode": null,
+                        "LinkUrl": "",
+                        "PictureUrl": "http://img11.yiguoimg.com/e/ad/2017/170224/585749453767287384_800x322.jpg",
+                        "AdPost": "",
+                        "Tag": null,
+                        "Badge": null
+                    },
+                    {
+                        "GroupName": "35",
+                        "Remark1": "",
+                        "CommodityId": "",
+                        "BannerId": "e99c7b06-53d6-432e-b046-579aadfb0042",
+                        "BannerName": "豪华泡面",
+                        "LinkChannel": 3,
+                        "LinkType": 3,
+                        "LinkCode": "?ArticleId=4ccaf6e0-c466-484f-89b6-e60970d168ab&city=1&cityid=312d0556-0671-4f2e-8bac-7b8873b5a03a&token=JMMvCmOeo%2F%2Fr9crys2s1ofIBU7444y6DYD3S9mZd6OMlgJxWxd4mSsImTWio8XRgc0T56KW%2FmqeGYhxuVRP1z0WaeSS66rlbE36%2FBFXat7s2J7PRJZ0GHvMmNoebIL3IgwCQVynZC3WMC%2B2cfFvsUjSxk9GNHf0YRyXzxNSSZds%3D&winzoom=1",
+                        "LinkUrl": "http://article.m.yiguo.com/Article/Detail/?ArticleId=4ccaf6e0-c466-484f-89b6-e60970d168ab&city=1&cityid=312d0556-0671-4f2e-8bac-7b8873b5a03a&token=JMMvCmOeo%2F%2Fr9crys2s1ofIBU7444y6DYD3S9mZd6OMlgJxWxd4mSsImTWio8XRgc0T56KW%2FmqeGYhxuVRP1z0WaeSS66rlbE36%2FBFXat7s2J7PRJZ0GHvMmNoebIL3IgwCQVynZC3WMC%2B2cfFvsUjSxk9GNHf0YRyXzxNSSZds%3D&winzoom=1",
+                        "PictureUrl": "http://img10.yiguoimg.com/e/ad/2017/170216/585749453408510544_800x322.jpg",
+                        "AdPost": "",
+                        "Tag": null,
+                        "Badge": null
+                    },
+                    {
+                        "GroupName": "35",
+                        "Remark1": "",
+                        "CommodityId": "",
+                        "BannerId": "a34b472d-40b9-417b-9306-87e5c594962a",
+                        "BannerName": "葱姜蒜",
+                        "LinkChannel": 3,
+                        "LinkType": 3,
+                        "LinkCode": "?ArticleId=3cb72655-7f38-4374-872c-534a6fa2931a&city=1&cityid=312d0556-0671-4f2e-8bac-7b8873b5a03a&token=JMMvCmOeo%2F%2Fr9crys2s1ofIBU7444y6DYD3S9mZd6OMlgJxWxd4mSsImTWio8XRgc0T56KW%2FmqeGYhxuVRP1z0WaeSS66rlbE36%2FBFXat7s2J7PRJZ0GHvMmNoebIL3IgwCQVynZC3WMC%2B2cfFvsUjSxk9GNHf0YRyXzxNSSZds%3D&winzoom=1",
+                        "LinkUrl": "http://article.m.yiguo.com/Article/Detail/?ArticleId=3cb72655-7f38-4374-872c-534a6fa2931a&city=1&cityid=312d0556-0671-4f2e-8bac-7b8873b5a03a&token=JMMvCmOeo%2F%2Fr9crys2s1ofIBU7444y6DYD3S9mZd6OMlgJxWxd4mSsImTWio8XRgc0T56KW%2FmqeGYhxuVRP1z0WaeSS66rlbE36%2FBFXat7s2J7PRJZ0GHvMmNoebIL3IgwCQVynZC3WMC%2B2cfFvsUjSxk9GNHf0YRyXzxNSSZds%3D&winzoom=1",
+                        "PictureUrl": "http://img10.yiguoimg.com/e/ad/2017/170224/585749453767254616_800x322.jpg",
+                        "AdPost": "",
+                        "Tag": null,
+                        "Badge": null
+                    },
+                    {
+                        "GroupName": "35",
+                        "Remark1": "",
+                        "CommodityId": "",
+                        "BannerId": "a304777d-dd0c-4de5-89c7-13e5cfa1e491",
+                        "BannerName": "越南河粉",
+                        "LinkChannel": 3,
+                        "LinkType": 3,
+                        "LinkCode": "?ArticleId=c3215863-c118-4628-8fff-9785d7534ff4&city=1&cityid=312d0556-0671-4f2e-8bac-7b8873b5a03a&token=JMMvCmOeo%2F%2Fr9crys2s1ofIBU7444y6DYD3S9mZd6OMlgJxWxd4mSsImTWio8XRgc0T56KW%2FmqeGYhxuVRP1z0WaeSS66rlbE36%2FBFXat7s2J7PRJZ0GHvMmNoebIL3IgwCQVynZC3WMC%2B2cfFvsUjSxk9GNHf0YRyXzxNSSZds%3D&winzoom=1",
+                        "LinkUrl": "http://article.m.yiguo.com/Article/Detail/?ArticleId=c3215863-c118-4628-8fff-9785d7534ff4&city=1&cityid=312d0556-0671-4f2e-8bac-7b8873b5a03a&token=JMMvCmOeo%2F%2Fr9crys2s1ofIBU7444y6DYD3S9mZd6OMlgJxWxd4mSsImTWio8XRgc0T56KW%2FmqeGYhxuVRP1z0WaeSS66rlbE36%2FBFXat7s2J7PRJZ0GHvMmNoebIL3IgwCQVynZC3WMC%2B2cfFvsUjSxk9GNHf0YRyXzxNSSZds%3D&winzoom=1",
+                        "PictureUrl": "http://img13.yiguoimg.com/e/ad/2017/170221/585749453540958805_800x322.jpg",
+                        "AdPost": "",
+                        "Tag": null,
+                        "Badge": null
+                    }
+                ],
+                "IsDynamic": false
+            },
+            "AdTitleLine36": {
+                "GroupId": "AdTitleLine36",
+                "GroupTitle": "腰线",
+                "CountdownSeconds": null,
+                "Banners": [],
+                "IsDynamic": false
+            },
+            "AdCategory37": {
+                "GroupId": "AdCategory37",
+                "GroupTitle": "分类",
+                "CountdownSeconds": null,
+                "Banners": [
+                    {
+                        "GroupName": "37",
+                        "Remark1": "",
+                        "CommodityId": "",
+                        "BannerId": "56dcfeff-9299-432b-82e0-34fee7f318b6",
+                        "BannerName": "做美食",
+                        "LinkChannel": 3,
+                        "LinkType": 3,
+                        "LinkCode": "food",
+                        "LinkUrl": "http://article.m.yiguo.com/Article/Category/food",
+                        "PictureUrl": "http://img13.yiguoimg.com/e/ad/2016/161020/586030925119660372_120x96.png",
+                        "AdPost": "",
+                        "Tag": null,
+                        "Badge": null
+                    },
+                    {
+                        "GroupName": "37",
+                        "Remark1": "",
+                        "CommodityId": "",
+                        "BannerId": "2503b56a-205f-4751-b101-dedae4814cb6",
+                        "BannerName": "体验师",
+                        "LinkChannel": 3,
+                        "LinkType": 3,
+                        "LinkCode": "taste",
+                        "LinkUrl": "http://article.m.yiguo.com/Article/Category/taste",
+                        "PictureUrl": "http://img14.yiguoimg.com/e/ad/2016/161020/586030925119562068_120x96.png",
+                        "AdPost": "",
+                        "Tag": null,
+                        "Badge": null
+                    },
+                    {
+                        "GroupName": "37",
+                        "Remark1": "",
+                        "CommodityId": "",
+                        "BannerId": "b7c44cee-4044-4361-b5d3-3918f53f9b03",
+                        "BannerName": "涨知识",
+                        "LinkChannel": 3,
+                        "LinkType": 3,
+                        "LinkCode": "know",
+                        "LinkUrl": "http://article.m.yiguo.com/Article/Category/know",
+                        "PictureUrl": "http://img13.yiguoimg.com/e/ad/2016/161020/586030925119693140_120x96.png",
+                        "AdPost": "",
+                        "Tag": null,
+                        "Badge": null
+                    },
+                    {
+                        "GroupName": "37",
+                        "Remark1": "",
+                        "CommodityId": "",
+                        "BannerId": "4d337427-914e-4ada-b997-87672319b3a0",
+                        "BannerName": "生活家",
+                        "LinkChannel": 3,
+                        "LinkType": 3,
+                        "LinkCode": "live",
+                        "LinkUrl": "http://article.m.yiguo.com/Article/Category/live",
+                        "PictureUrl": "http://img12.yiguoimg.com/e/ad/2016/161020/586030925119725908_120x96.png",
+                        "AdPost": "",
+                        "Tag": null,
+                        "Badge": null
+                    },
+                    {
+                        "GroupName": "37",
+                        "Remark1": "",
+                        "CommodityId": "",
+                        "BannerId": "30328b5a-700f-427a-ae7d-e49dd6d4a801",
+                        "BannerName": "爱试吃",
+                        "LinkChannel": 3,
+                        "LinkType": 3,
+                        "LinkCode": "tryEat",
+                        "LinkUrl": "http://article.m.yiguo.com/Article/Category/tryEat",
+                        "PictureUrl": "http://img09.yiguoimg.com/e/ad/2017/170117/586030927703745073_120x96.png",
+                        "AdPost": "",
+                        "Tag": null,
+                        "Badge": null
+                    }
+                ],
+                "IsDynamic": false
+            }
+        }
+    }
+}

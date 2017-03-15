@@ -1,0 +1,106 @@
+<!-- <!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" type="text/css" href="../../css/swiper-3.4.1.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="../../lib/rem.js"></script>
+    </head>
+    <body ui-view> -->
+        <div id="home" ng-controller="HomeController">
+            <header>
+                <a ui-sref="type" title=""><div class="home-scbar"><span class='home-scbtn'></span></div></a>
+                <a  title="" class="home-location" ui-sref="city">{{CName || "北京"}}<span class="home-locicon"></span></a>
+            </header> 
+            <div class="swiper-container" >
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide turn" ng-repeat="n in data.data.template.componentList[0].carouselPictures" style="background-image:url({{n.pictureUrl}})"></div>
+                </div>
+            <div class="swiper-pagination"></div>
+            </div>
+            <div class="home-activity">
+                <a href="" title="" class="home-actlist" ng-repeat="n in data.data.template.componentList[0].componentNavs">
+                    <img ng-src="{{n.pictureUrl}}" alt="" class="home-acticon">
+                    <p class="home-actname">{{n.navName}}</p>
+                </a>
+            </div>
+            <div class="home-top">
+                <a  title="" class="home-toplink"><img ng-src="{{data.data.template.componentList[1].adPictures[0].pictureUrl}}" alt="" class="home-topicon"/></a>
+            </div>
+            <div class="home-hotcommend">
+                <a href="" title="" class="home-hrlink" ng-repeat="n in data.data.template.componentList[2].adPictures"><img ng-src="{{n.pictureUrl}}" alt="" class="home-hricon"/></a>
+            </div>
+            <div class="home-gdtype" ng-repeat="n in  data.data.template.componentList | limitTo:8"  ng-show="$index>2">
+                <a title="" class="home-gdtptitle" ui-sref="fresh">
+                    <img ng-src="{{n.adPictures[0].pictureUrl}}" alt="" class="home-gdtpicon"/>
+                </a>
+                <div class="home-gddetail"  ng-show="$index">
+                    <div class="home-detailbox">
+                        <div class="home-deinfo"  ng-repeat="x in n.componentCommoditys"  ng-click="getinfo(x)" ui-sref="detail">
+                            <div class="pic">
+                                <div class="tag"><img ng-src="{{x.cornerPictureUrl}}" alt=""></div>
+                                <div class="icon"><img ng-src="{{x.pictureUrl}}" alt=""/></div>
+                            </div>
+                            <div class="info">
+                                <p class="info-describe">{{x.commodityName}}</p>
+                                <div class="sale">
+                                    <span class="price">{{x.commodityPrice | currency:"¥"}}</span>
+                                    <span class='weight'>{{x.commoditySpec}}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a title="" class="more">
+                            <p class="home-more">查看更多<span class="right"></span></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="home-classify" ng-repeat="n in data.data.template.componentList | limitTo:15" ng-show="$index>9">
+                <div class="home-cfdetail">
+                    <div class="class-title">
+                        <h3 class="cf-name"><span class="across-left"></span>{{n.componentBase.customComponentName}}<span class="across-right"></span></h3>
+                    </div>
+                    <ul class="cddetail-list">
+                        <li  ng-repeat="x in n.componentCommoditys">
+                            <a   ng-click="getinfo(x)" ui-sref="detail" title="">
+                                <div class="container">
+                                    <div class="pic">
+                                        <div class="tag"><img ng-src="{{x.cornerPictureUrl}}" alt=""></div>
+                                        <div class="icon"><img ng-src="{{x.pictureUrl}}" alt=""/></div>
+                                    </div>
+                                    <div class="info">
+                                        <p class="info-describe">{{x.commodityName}}</p>
+                                        <div class="sale">
+                                            <span class="price">{{x.commodityPrice}}</span>
+                                            <span class='weight'>{{x.commoditySpec}}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   <!--  </body>
+    <script type="text/javascript" src="../../lib/angular.min.js"></script>
+    <script type="text/javascript" src="../../lib/angular-ui-router.js"></script>
+     <script type="text/javascript" src="../../app/app.js"></script>
+    <script type="text/javascript" src="home.js"></script>
+    <script type="text/javascript" src="../../lib/swiper-3.4.1.jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/swiper-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../../app/service/homeservice.js"></script> -->
+    <!-- <script type="text/javascript">
+        window.onload= function(){
+            var mySwiper = new Swiper('.swiper-container', {
+            autoplay: 1000,//可选选项，自动滑动
+            pagination : '.swiper-pagination'
+        });
+        }
+        
+    </script> -->
+<!-- </html> -->
+

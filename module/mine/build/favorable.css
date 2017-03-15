@@ -1,0 +1,413 @@
+/*body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{
+    font:12px Arial, Helvetica, 华文细黑, sans-serif;;background:#fff;
+}
+a{
+    color:#172c45;
+    text-decoration:none
+} 
+a:hover{
+    color:#cd0200;
+    text-decoration:underline
+} 
+em{font-style:normal}
+li{list-style:none}
+img{
+    border:0;
+    vertical-align:middle
+} 
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.ind{text-indent:2em}
+.ind10{text-indent:10px;}
+.noborder{border:0;}
+
+.Favbig{
+	padding: 0 0 2.32rem 0;
+}
+.Favlist{
+	padding: 0 .33rem;
+}
+.Favgift-item-sign1 a{
+	background-image: url(http://img05.yiguoimg.com/e/web/160225/00891/112058/bg-coupon1.png);
+	display: block;
+    padding: .5rem .5rem .56rem .5rem;
+    margin: .5rem auto 0 auto;
+    background-size: 100% 100%;
+}
+.Favgift-item-sign3 a{
+	background-image: url(./image/bg-coupon3.png);
+	display: block;
+    padding: .5rem .5rem .56rem .5rem;
+    margin: .5rem auto 0 auto;
+    background-size: 100% 100%;
+}
+.Favgift-box{
+	border: .04rem solid #fc8e34;
+	display: table;
+    width: 100%;
+    border-radius: .2rem;
+    font-size: .4rem;
+}
+.Favbox-left{
+	background-color: #fc8e34;
+	width: 2.81rem;
+    text-align: center;
+    color: #fff;
+}
+.Favbox-left span{
+	display: block;
+    font-size: .83rem;
+    font-weight: bold;
+}
+.Favbox-left span em{
+	font-size: 0.46rem;
+	font-style: normal;
+}
+.Favbox-right{
+	color: #fc8e34;
+	display: table-cell;
+
+	padding: .17rem;
+    color: #333;
+    height: 3.54rem;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    padding-top: .76rem;
+}
+.Favbox-right-time{
+	white-space: nowrap;
+    display: block;
+    color: #8d8a8a;
+    padding: .1rem .17rem;
+    margin-bottom: .17rem;
+    border-bottom: .03rem dashed #8d8a8a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.Favbox-right-time-fix{
+	position: relative;
+    display: block;
+}
+.Favbox-right-time-fix em{
+	font-style: normal;
+    font-size: .36rem;
+}
+.Favbox-right-time-fix .ma{
+	display: block;
+    overflow: hidden;
+    padding-right: 2.65rem;
+    text-align: left;
+    width: 100%;
+    height: .53rem;
+    white-space: normal;
+    /*word-break: break-all;*/
+  /*  word-wrap: break-word;
+}
+.Favbox-right-time-fix .Time{
+	display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{
+    font:12px Arial, Helvetica, 华文细黑, sans-serif;;background:#fff;
+}
+a{
+    color:#172c45;
+    text-decoration:none
+} 
+a:hover{
+    color:#cd0200;
+    text-decoration:underline
+} 
+em{font-style:normal}
+li{list-style:none}
+img{
+    border:0;
+    vertical-align:middle
+} 
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.ind{text-indent:2em}
+.ind10{text-indent:10px;}
+.noborder{border:0;}
+
+.coupon-code { 
+	position: relative; 
+	border-bottom: .03rem solid #ccc; 
+}
+.coupon-code-box { 
+	overflow: hidden; 
+	position: relativel; 
+	width: 80%; 
+	padding: .17rem 0 .17rem .5rem; 
+}
+.coupon-code .icon-code { 
+	overflow: hidden; 
+	position: absolute; 
+	top: .41rem; 
+	left: 1rem; 
+	width: .71rem; 
+	height: .71rem; 
+	text-indent: -999px; 
+	background-position: 0 -.93rem; 
+}
+.coupon-code .code-input { 
+	background: #f8f8f8; 
+	border-radius: .66rem; 
+	line-height: 1.16rem; 
+	font-size: .46rem; 
+	height: 1.16rem; 
+	padding: 0 .66rem; 
+	width: 100%; 
+	border: none; 
+}
+.coupon-code .btn-code { 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	height: 1.46rem; 
+	line-height: 1.46rem; 
+}
+.coupon-code .btn-code a { 
+	display: block; 
+	width: 100%; 
+	height: 100%; 
+	padding-right: .5rem; 
+	color: #008842; 
+	font-size: .46rem; 
+}
+
+.coupon{ 
+	padding:0 .33rem;
+}
+.coupon-item a,.gift-item a{ 
+	display:block; 
+	padding:.5rem .5rem .56rem .5rem; 
+	margin:.5rem auto 0 auto; 
+	background-size:100% 100% ;
+}
+.coupon-box,.gift-box{ 
+	display:table; 
+	width:100%; 
+	border-radius:.2rem; 
+	font-size:.4rem;
+}
+.gift-box{ 
+	border:.03rem solid #8bc75f; 
+}
+.coupon-box .left,.coupon-box .right,.gift-box .left,.gift-box .right{ 
+	display:table-cell; 
+	vertical-align:middle;
+}
+.coupon-box .left,.gift-box .left{ 
+	width:2.78rem; 
+	text-align:center; 
+	color:#fff; 
+	background:#4b94d1;
+}
+.gift-box .left{ 
+	background:#8bc75f;
+}
+.coupon-box .left span,.gift-box .left span{ 
+	display:block; 
+	font-size:.83rem; 
+	font-weight:bold;
+}
+.coupon-box .right,.gift-box .right{ 
+	padding:.17rem; 
+	color:#333;
+	height:3.54rem; 
+	text-align:center; 
+	vertical-align:middle; 
+	position:relative; 
+	padding-top:.76rem;
+}
+.coupon-box .right .timewrap,.gift-box .right .timewrap{ 
+	white-space: nowrap;
+	display:block; 
+	color:#8d8a8a; 
+	padding:.1rem .17rem; 
+	margin-bottom:.17rem; 
+	border-bottom:.03rem dashed #8d8a8a; 
+	position:absolute; 
+	top:0; 
+	left:0; 
+	width:100%;
+}
+.coupon-box .timewrap span,.gift-box .timewrap span{ 
+	position:relative; 
+	display:block;
+}
+.coupon-box .time,.gift-box .time{ 
+	display:inline-block; 
+	position:absolute; 
+	right:0; top:0;
+}
+.coupon-box .ma,.gift-box .ma{ 
+	display:block;
+	overflow:hidden; 
+	padding-right:2.65rem; 
+	text-align:left; 
+	widh:100%; 
+	height:.53rem; 
+	white-space:normal;　
+	word-break:break-all;
+	word-wrap:break-word;
+}
+.coupon-box .right span em, .gift-box .right span em{ 
+	font-style:normal; 
+	font-size:.36rem;
+}
+.sign1 a{
+	background-image:url(http://img05.yiguoimg.com/e/web/160225/00891/112058/bg-coupon1.png); 
+}
+.sign1 .left{ 
+	background-color:#fc8e34;
+}
+.sign1 .right{ 
+	color:#fc8e34;
+}
+.sign1 .gift-box{ 
+	border:.03rem solid #fc8e34;
+}
+.sign2 a{
+	background-image:url(http://img05.yiguoimg.com/e/web/160225/00891/112058/bg-coupon2.png); 
+}
+.sign2 .left{ 
+	background-color:#308cd8;
+}
+.sign2 .right{ 
+	color:#308cd8;
+}
+.sign2 .gift-box{ 
+	border:.03rem solid #308cd8;
+}
+.sign3 a{
+	background-image:url(http://img05.yiguoimg.com/e/web/160225/00891/112058/bg-coupon3.png); 
+}
+.sign3 .left{ 
+	background-color:#51c200;
+}
+.sign3 .right{ 
+	color:#51c200;
+}
+.sign3 .gift-box{ 
+	border:.03rem solid #51c200;
+}
+.sign4 a{
+	background-image:url(http://img05.yiguoimg.com/e/web/160225/00891/112058/bg-coupon4.png); 
+}
+.sign4 .left{ 
+	background-color:#b66de0;
+}
+.sign4 .right{ 
+	color:#b66de0;
+}
+.sign4 .gift-box{ 
+	border:.03rem solid #b66de0;
+}
+.gift-box .left span em{ 
+	font-size:.46rem;
+}
+.gift-box .left span i{ 
+	font-size:.53rem;
+}
+em,i{ 
+	font-style:normal;
+}
+
+.modal-header{
+	padding:.17rem .5rem; 
+	color:#8d8a8a; 
+	height:1.16rem; 
+}
+.modal-content .close{  
+	font-size: .73rem;
+}
+.modal-title{
+	line-height:.83rem;
+}
+.select-goods { 
+	padding:.33rem .5rem 0 .5rem;
+}
+.select-goods label{ 
+	display:block; 
+	margin-bottom:.33rem;
+}
+.select-goods input{ 
+	margin:0 .33rem 0 0; 
+	vertical-align:middle;
+}
+.modal-footer{  
+	text-align:center; 
+	border-top: 0;  
+	padding:.5rem; 
+	margin:0;
+}
+.modal-footer .btn{ 
+	width:3.31rem; 
+	color: #fff;
+	background-color: #008842;
+	border-color: #008842;
+}
+
+.icon_radio{  
+	background:url("http://img02.yiguo.com/e/web/150713/01814/162432/icon_radio.png") no-repeat scroll 0 0 / .6rem 1.2rem rgba(0, 0, 0, 0);
+	display:inline-block;
+    text-indent:-1999em; 
+    overflow:hidden; 
+    vertical-align:middle; 
+    width:.6rem; 
+    height:6rem;  
+    margin-right:.06rem; 
+    background-position:0 -6rem;
+}
+              
+.icon_radio_checked{ 
+	background-position:0 0;
+}   
+
+.icon_sign{  
+	background-size:100% 100%;
+	display:inline-block;
+	text-indent:-1999em; 
+	overflow:hidden; 
+	vertical-align:middle; 
+	width:1.85rem; 
+	height:1.85rem; 
+	position:absolute; 
+	right:0; 
+	top:0;
+}
+              
+.coupon-item .icon_sign{ 
+	background-position:0 -1.85rem;
+}
+
+.quan_con{ 
+	padding:0 .33rem;
+	min-height:3.31rem;
+}
+  
+.sign1 .icon_sign{ 
+	color:#fc8e34; 
+	background-image:url(http://img05.yiguoimg.com/e/web/160225/00891/112058/sign1.png);
+}
+.sign2 .icon_sign{ 
+	color:#fc8e34; 
+	background-image:url(http://img05.yiguoimg.com/e/web/160225/00891/112058/sign2.png);
+}
+.sign3 .icon_sign{ 
+	color:#fc8e34; 
+	background-image:url(http://img05.yiguoimg.com/e/web/160225/00891/112058/sign3.png);
+}
+.sign4 .icon_sign{ 
+	color:#fc8e34; 
+	background-image:url(http://img05.yiguoimg.com/e/web/160225/00891/112058/sign4.png);
+}

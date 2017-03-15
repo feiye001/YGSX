@@ -1,0 +1,70 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{
+    font:12px Arial, Helvetica, 华文细黑, sans-serif;;background:#fff;    background-color: #f8f8f8;
+}
+a{
+    color:#172c45;
+    text-decoration:none
+} 
+a:hover{
+    color:#cd0200;
+    text-decoration:underline
+} 
+em{font-style:normal}
+li{list-style:none}
+img{
+    border:0;
+    vertical-align:middle
+} 
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.ind{text-indent:2em}
+.ind10{text-indent:10px;}
+.noborder{border:0;}
+
+
+.Addbig{
+	padding: 0 0 2.32rem 0;
+}
+.Addbig form{
+	display: block;
+    margin-top: 0em;
+}
+.Addres{
+	position: relative;
+    border: .03rem solid #ccc;
+    border-width: .03rem 0;
+    background: #fff;
+    margin: .66rem 0;
+}
+.Addres a{
+	display: block;
+    color: #8d8a8a;
+    padding: .33rem 0 .33rem .66rem;
+    line-height: .68rem;
+    font-size: .46rem;
+}
+.Addres-icon{
+	display: inline-block;
+    width: .73rem;
+    height: .7rem;
+    vertical-align: middle;
+    margin-right: .33rem;
+    background-image: url(http://img06.yiguoimg.com/e/web/151027/00981/171035/icon_add.png);
+    background-size: 100% 100%;
+    background-position: 0 0;
+    font-weight: bold;
+}
+.Addres-arrow{
+	overflow: hidden;
+    position: absolute;
+    right: .5rem;
+    top: 50%;
+    width: .36rem;
+    height: .6rem;
+    margin-top: -.3rem;
+    text-indent: -999px;
+    background-position: -1.56rem 0;
+    background: url(http://img02.yiguo.com/e/web/150630/00781/175358/sprites.png) no-repeat;
+    background-size: 6.35rem;
+}

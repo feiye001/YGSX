@@ -1,0 +1,65 @@
+<!-- <!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../../css/common.css">
+        <link rel="stylesheet" type="text/css" href="detail.css">
+        <link rel="stylesheet" type="text/css" href="../../css/swiper-3.4.1.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="../../lib/rem.js"></script>
+    </head>
+    <body> -->
+        <div id="detail" ng-controller="detailController">
+            <div class="dt-header">
+                <a title="" class="back" ui-sref="home"></a>
+                <img ng-src="{{dedata.pictureUrl || dedata.SmallPic}}" alt="" class="dt-headericon"/>
+            </div>
+            <div class="de-summary">
+                <div class="de-info">
+                    <p class="de-infotitle">{{dedata.commodityName || dedata.CommodityName}}</p>
+                    <div class="de-price">
+                        <span class="price">¥{{dedata.commodityPrice || dedata.CommodityPrice | number:2}}</span>
+                        <span class="value"></span>
+                        <img  alt="" class="vip"/>
+                    </div>
+                    <div class="de-act">
+                        <a title="" class="discount">-</a>
+                        <span class="de-num">1</span>
+                        <a title="" class="add">+</a>
+                    </div>
+                </div>  
+                <div class="de-standards">
+                    <div class="de-sdname">规格</div>
+                    <a title="" class="de-sdpara" ng-repeat="x in detaildata.RspData.data.Speces">{{x.Spec}}</a>
+                </div> 
+            </div>
+            <div class="de-address">
+                <div class="de-adrbox">
+                    <p class="adrname">产地<span class='adr-name'>{{detaildata.RspData.data.PlaceOfOrigin}}</span></p>
+                    <p class="send-time">{{detaildata.RspData.data.DeliveryTips}}</p>
+                </div>
+            </div>
+            <div class="comment">
+                用户评价<span class="comnum">({{detaildata.RspData.data.VoteCount}})</span>
+                <span class="percent"><span class="pernum">{{detaildata.RspData.data.VotePositiveRate}}%</span>好评</span>
+            </div>
+            <div class="pic-detail"><a title="" class="pic-link">商品图文详情（建议在WIFI下查看）</a></div>
+            <di class="cart-add">
+                <div class="left">
+                    <a ui-sref="home" title="" class="tohome"><span></span>首页</a>
+                    <a ui-sref="cart" title="" class="tocart"><span></span>购物车</a>
+                </div>
+                <div class="right">
+                    <a ui-sref="cart" title="" class="addtocart" ng-click="typeBuy(dedata)">加入购物车</a>
+                </div>
+            </div>
+        </div>
+  <!--       
+    </body>
+    <script type="text/javascript" src="../../lib/angular.min.js"></script>
+    <script type="text/javascript" src="../../lib/angular-ui-router.js"></script>
+    <script type="text/javascript" src="detail.js"></script>
+    <script type="text/javascript" src="../../lib/swiper-3.4.1.jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/swiper-3.4.1.min.js"></script>
+</html> -->

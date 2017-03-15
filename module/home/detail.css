@@ -1,0 +1,271 @@
+/* 
+* @Author: anchen
+* @Date:   2017-02-27 19:12:07
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-02-28 20:01:27
+*/
+@charset "utf-8";
+#detail{
+    width: 100%;
+    padding-bottom: 2.5rem;
+    background-color: #f8f8f8;
+}
+#detail .dt-header{
+    width: 100%;
+    height: 6.624rem;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+#detail .dt-header .back{
+    position: absolute;
+    top: 7px;
+    left: 14px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url(http://img05.yiguoimg.com/e/web/161227/00584/173409/return-icon.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+#detail .dt-header .dt-headericon{
+    display: inline-block;
+    height: 6.624rem;
+    vertical-align: middle;
+}
+#detail .de-summary{
+    font-size: .4rem;
+    background: #fff;
+    box-sizing: border-box;
+}
+#detail .de-summary .de-info{
+    position: relative;
+    padding: .33rem .5rem;
+    border-bottom: 1px solid #ccc;
+}
+#detail .de-summary .de-info .de-infotitle{
+    line-height: .66rem;
+    font-size: .464rem;
+    margin-bottom: 8px;
+}
+#detail .de-summary .de-info .de-price{
+    font-size: 14px;
+    color: #8d8a8a;
+}
+#detail .de-summary .de-info .de-price .price{
+    margin-right: 5px;
+    color: #fb3d3d;
+}
+#detail .de-summary .de-info .de-price .value{
+
+}
+#detail .de-summary .de-info .de-price .vip{
+    display: none;
+}
+#detail .de-summary .de-info .de-act{
+    position: relative;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+}
+#detail .de-summary .de-info .de-act .discount{
+    float: left;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    margin-left: -1px;
+    background: #fff;
+    border: 1px solid #9e9e9e;
+    color: #666;
+    font-size: 16px;
+    border-radius: 3px 0 0 3px;
+}
+#detail .de-summary .de-info .de-act .de-num{
+    float: left;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    margin-left: -1px;
+    background: #fff;
+    border: 1px solid #9e9e9e;
+    border-radius: 0;
+    font-size: 12px;
+    font-family: verdana;
+    color: #000;
+    -webkit-appearance: none;
+}
+#detail .de-summary .de-info .de-act .add{
+    float: left;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    margin-left: -1px;
+    background: #fff;
+    border: 1px solid #9e9e9e;
+    color: #666;
+    font-size: 16px;
+    border-radius: 0 3px 3px 0;
+}
+#detail .de-summary .de-standards{
+    position: relative;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+#detail .de-summary .de-standards .de-sdname{
+    display: inline-block;
+    width: 30px;
+    margin-right: 15px;
+    color: #8d8a8a;
+    box-sizing: border-box; 
+}
+#detail .de-summary .de-standards .de-sdpara{
+    display: inline-block;
+    padding: 3px 7px;
+    line-height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+    background: #fff;
+    margin-bottom: 5px;
+    color: #000;
+}
+#detail .de-address{
+    position: relative;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    line-height: 24px;
+    overflow: hidden;
+}
+#detail .de-address .de-adrbox{
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+#detail .de-address .de-adrbox .adrname{
+    font-size: 12px;
+    color: #8d8a8a;
+    margin: 0;
+    box-sizing: border-box;
+}
+#detail .de-address .de-adrbox .adrname .adr-name{
+    color: #333;
+    padding-left: 5px;
+}
+#detail .de-address .de-adrbox .send-time{
+    font-size: 12px;
+    color: #8d8a8a;
+    margin: 0;
+    box-sizing: border-box;
+}
+#detail .comment{
+    position: relative;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    line-height: 30px;
+    color: #8d8a8a;
+}
+#detail .comment .percent{
+   float: right;
+   margin-right: 25px; 
+   box-sizing: border-box;
+} 
+#detail .comment .percent .pernum{
+    color: #fb3d3d;
+    font-weight: normal;
+}   
+#detail .pic-detail{
+    position: relative;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+}
+#detail .pic-detail .pic-link{
+    display: block;
+    color: #8d8a8a;
+}
+#detail .cart-add{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 51px;
+    background: #fff;
+    border-top: 1px solid #d5d5d5;
+    box-sizing: border-box;
+}
+#detail .cart-add .left{
+    float: left;
+    width: 44%;
+    height: 100%;
+    box-sizing: border-box;
+}
+#detail .cart-add .left .tohome{
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+    color: #8d8a8a;
+}
+#detail .cart-add .left .tohome img{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 23px;
+    height: 20px;
+    top: 9px;
+    left: 50%;
+    margin-left: -11.5px;
+    background: url(http://img07.yiguoimg.com/e/web/161227/00585/180433/home.png) no-repeat;
+    background-size: 100% 100%;
+}
+#detail .cart-add .left .tocart{
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    padding-top: 30px;
+    text-align: center;
+    color: #8d8a8a;
+}
+#detail .cart-add .left .tocart img{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 22px;
+    height: 19.5px;
+    top: 9px;
+    left: 50%;
+    margin-left: -11px;
+    background: url(http://img05.yiguoimg.com/e/web/161227/00585/180433/shopping-cart.png) no-repeat;
+    border:none;
+    background-size: 100% 100%;
+}
+#detail .cart-add .right{
+    float: right;
+    width: 56%;
+    height: 100%;
+}
+#detail .cart-add .right .addtocart{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #fb3d3d;
+    text-align: center;
+    line-height: 51px;
+    font-size: 15px;
+    color: #fff;
+}

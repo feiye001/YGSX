@@ -1,0 +1,139 @@
+/* 
+* @Author: anchen
+* @Date:   2017-02-28 09:58:05
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-02-28 11:52:14
+*/
+@charset "utf-8";
+#fresh{
+    background-color: #f8f8f8;
+}
+#fresh .banner{
+    position: relative;
+    width: 100%;
+    height: 9rem;
+}
+#fresh .banner .banner-icon{
+    display: inline-block;
+    width: 100%;
+    height: 9rem;
+}
+#fresh .banner .loc{
+    z-index: 100;
+    position: absolute;
+    top: .74rem;
+    right: .8rem;
+    font-style: normal;
+    color: #fff;
+    font-size: .134rem;
+}
+#fresh .banner .loc img{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .1rem;
+    vertical-align: middle;
+}
+#fresh .banner .loc span{
+    font-style: normal;
+    color: #fff;
+    font-size: .5rem;
+    vertical-align: middle;
+}
+#fresh .nav{
+    border-bottom: 3px solid rgb(242, 242, 242);
+    height: 1.6rem;
+    width: 100%;
+    overflow: hidden;
+}
+#fresh .nav .navbox .navlist{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+#fresh .nav .navbox .navlist .listname{
+    display: inline-block;
+    /*position: relative;*/
+    width: 4rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #fff;
+}
+#fresh .nav .navbox .navlist .listname .navlink{
+    display: block;
+    padding: 0 .5rem;
+    font-size: .26rem;
+    color: rgb(0, 128, 0);
+    cursor: pointer;
+}
+#fresh .fe-list{
+    padding-bottom: .1rem;
+}
+#fresh .fe-list .fe-lttitle{
+
+}
+#fresh .fe-list .fe-lttitle .title-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #444;
+}
+#fresh .fe-list .fe-lttitle .title-link img{
+    display: block;
+    width: 100%;
+}
+#fresh .fe-list  .fe-ltdetail{
+    background: #fff;
+    border-right: 1px solid #fff;
+}
+#fresh .fe-list  .fe-ltdetail .fe-li{
+    position: relative;
+    display: inline-block;
+    width: 49%;
+    padding-bottom: .1rem;
+    border-bottom: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+}
+#fresh .fe-list  .fe-ltdetail .fe-li .fe-link img{
+    display: inline-block;
+    width: 100%;
+}
+#fresh .fe-list  .fe-ltdetail .fe-li  .fe-gdname{
+    font-size: .48rem;
+    height: .68rem;
+    line-height: .68rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: .56rem;
+    padding-left: .2rem;
+}
+#fresh .fe-list  .fe-ltdetail .fe-li .price{
+        padding: 0 .2rem;
+}
+#fresh .fe-list  .fe-ltdetail .fe-li .price .value{
+    color: #fd364b;
+    font-size: .24rem;
+    font-weight: bold;
+}
+#fresh .fe-list  .fe-ltdetail .fe-li .price .value .intvalue{
+    font-size: 120%;
+}
+#fresh .fe-list  .fe-ltdetail .fe-li .addto-cart{
+    position: absolute;
+    bottom: .2rem;
+    right: .2rem;
+    display: block;
+    width: .86rem;
+    height: .78rem;
+}
+#fresh .fe-list  .fe-ltdetail .fe-li .addto-cart img{
+    display: block;
+    width: 100%;
+}
